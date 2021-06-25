@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import styled from 'styled-components'
 import Wrapper from './styled/Wrapper';
 import Tag from './styled/Tag';
@@ -177,19 +177,19 @@ class TagInput extends Component {
     }
 }
 
-TagInput.propTypes = {
-    tags: PropTypes.array.isRequired,
-    onTagsChanged: PropTypes.func.isRequired,
-    onInputChange: PropTypes.func,
-    placeholder: PropTypes.string,
-    wrapperStyle: PropTypes.string,
-    inputStyle: PropTypes.string,
-    tagStyle: PropTypes.string,
-    tagDeleteStyle: PropTypes.string,
-    tagDeleteIcon: PropTypes.element,
-    addTagOnEnterKeyPressed: PropTypes.bool,
-    hideInputPlaceholderTextIfTagsPresent: PropTypes.bool,
-}
+// TagInput.propTypes = {
+//     tags: PropTypes.array.isRequired,
+//     onTagsChanged: PropTypes.func.isRequired,
+//     onInputChange: PropTypes.func,
+//     placeholder: PropTypes.string,
+//     wrapperStyle: PropTypes.string,
+//     inputStyle: PropTypes.string,
+//     tagStyle: PropTypes.string,
+//     tagDeleteStyle: PropTypes.string,
+//     tagDeleteIcon: PropTypes.element,
+//     addTagOnEnterKeyPressed: PropTypes.bool,
+//     hideInputPlaceholderTextIfTagsPresent: PropTypes.bool,
+// }
 
 TagInput.defaultProps = {
     placeholder: 'Type something and hit enter...',
